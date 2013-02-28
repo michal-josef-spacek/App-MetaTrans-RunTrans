@@ -1,5 +1,5 @@
 ---
-abstract: TODO
+abstract: 'Command line application for running MetaTrans plug-ins.'
 author:
   - 'Michal Špaček <skim@cpan.org>'
 build_requires:
