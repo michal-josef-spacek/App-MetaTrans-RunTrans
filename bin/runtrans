@@ -91,6 +91,10 @@ __END__
  #    -a <string>     append <string> to each line of output
  #    -h              print this help screen
 
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/App-MetaTrans-RunTrans>
+
 =head1 BUGS
 
 Please report any bugs or feature requests to

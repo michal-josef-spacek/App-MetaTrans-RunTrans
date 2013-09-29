@@ -1,6 +1,7 @@
 1.06
  - Add EXAMPLE sections to man page.
  - Add README.
+ - Add REPOSITORY section to man page.
  - Add VERSION to runtrans script.
  - Add check for arguments.
  - Add utf8 encoding to doc.
