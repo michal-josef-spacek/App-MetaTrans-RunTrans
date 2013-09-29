@@ -24,4 +24,4 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-MetaTrans-RunTrans
   homepage: https://github.com/tupinek/App-MetaTrans-RunTrans
   repository: git://github.com/tupinek/App-MetaTrans-RunTrans
-version: 1.00
+version: 1.06
