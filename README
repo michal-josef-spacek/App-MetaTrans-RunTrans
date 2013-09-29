@@ -1,0 +1,87 @@
+NAME
+    runtrans - Command line application for running MetaTrans plug-ins
+
+SYNOPSIS
+        runtrans PLUGIN_CLASS [ OPTIONS ] EXPRESSION [ EXPRESSION ... ]
+
+    The "OPTIONS" are plug-in specific. See
+
+        runtrans PLUGIN_CLASS -h
+
+    for a complete list.
+
+EXAMPLE1
+     # Run.
+     # ./bin/runtrans MetaTrans::SlovnikCz -m exact pes
+
+     # Output like:
+     # pes = pooch
+     # pes = tyke
+     # pes = harrier (malý, na lov zaj�ců, chrt, ohař)
+     # pes = dog (též i přen.)
+
+EXAMPLE2
+     # Run.
+     # ./bin/runtrans MetaTrans::SlovnikCz -h
+
+     # Output:
+     # Multilingual dictionary metasearcher for www.slovnik.cz
+     # Usage: runtrans [options] expression [...]      translate word(s)
+     # 
+     # Options:
+     #    --              expressions to be translated follow
+     #    -t <timeout>    wait for the response for <timeout> secs (default 5)
+     #    -m <matching>   set matching type
+     #                      exact: exact match only 
+     #                      start: match at start of the translated expr. only (def)
+     #                      expr : match expr. anywhere in the translated expr. 
+     #                      words: match expr. words in the translated expr. 
+     #                      all  : match anything to anything 
+     #    -b              match at word boundaries only
+     #    -d <direction>  set translation direction
+     #                      cze2eng: Czech     -> English   (default)
+     #                      cze2epo: Czech     -> Esperanto
+     #                      cze2fre: Czech     -> French   
+     #                      cze2ger: Czech     -> German   
+     #                      cze2ita: Czech     -> Italian  
+     #                      cze2lat: Czech     -> Latin    
+     #                      cze2pol: Czech     -> Polish   
+     #                      cze2rus: Czech     -> Russian  
+     #                      cze2spa: Czech     -> Spanish  
+     #                      eng2cze: English   -> Czech    
+     #                      epo2cze: Esperanto -> Czech    
+     #                      epo2slo: Esperanto -> Slovak   
+     #                      fre2cze: French    -> Czech    
+     #                      ger2cze: German    -> Czech    
+     #                      ita2cze: Italian   -> Czech    
+     #                      lat2cze: Latin     -> Czech    
+     #                      pol2cze: Polish    -> Czech    
+     #                      rus2cze: Russian   -> Czech    
+     #                      slo2epo: Slovak    -> Esperanto
+     #                      spa2cze: Spanish   -> Czech    
+     #    -a <string>     append <string> to each line of output
+     #    -h              print this help screen
+
+BUGS
+    Please report any bugs or feature requests to
+    "bug-metatrans@rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org>. I will be notified, and then you'll automatically
+    be notified of progress on your bug as I make changes.
+
+AUTHOR
+    Jan Pomikalek, "<xpomikal@fi.muni.cz>"
+
+COPYRIGHT & LICENSE
+    Copyright 2004 Jan Pomikalek, All Rights Reserved.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    MetaTrans, MetaTrans::Base, MetaTrans::SeznamCz, MetaTrans::SlovnikCz,
+    MetaTrans::SlovnikZcuCz, MetaTrans::SmsCz, MetaTrans::UltralinguaNet,
+    MetaTrans::WordbookCz.
+
+VERSION
+    1.06
+
