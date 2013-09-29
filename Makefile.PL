@@ -7,6 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Command line application for running MetaTrans plug-ins.';
+author 'Jan Pomikalek <xpomikal@fi.muni.cz>';
 author 'Michal Špaček <skim@cpan.org>';
 install_script 'bin/runtrans';
 license 'perl-5';
