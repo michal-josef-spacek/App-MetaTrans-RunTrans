@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+=encoding utf8
+
 =head1 NAME
 
 runtrans - Command line application for running MetaTrans plug-ins

@@ -3,5 +3,6 @@
  - Add README.
  - Add VERSION to runtrans script.
  - Add check for arguments.
+ - Add utf8 encoding to doc.
  - Improve SEE ALSO section.
  - Move from MetaTrans package.
