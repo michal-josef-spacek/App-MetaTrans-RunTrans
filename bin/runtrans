@@ -50,7 +50,14 @@ under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<MetaTrans>, L<MetaTrans::Base>
+L<MetaTrans>,
+L<MetaTrans::Base>,
+L<MetaTrans::SeznamCz>,
+L<MetaTrans::SlovnikCz>,
+L<MetaTrans::SlovnikZcuCz>,
+L<MetaTrans::SmsCz>,
+L<MetaTrans::UltralinguaNet>,
+L<MetaTrans::WordbookCz>.
 
 =head1 VERSION
 
