@@ -1,4 +1,5 @@
 1.06
+ - Add EXAMPLE sections to man page.
  - Add VERSION to runtrans script.
  - Improve SEE ALSO section.
  - Move from MetaTrans package.
