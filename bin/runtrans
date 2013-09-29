@@ -21,10 +21,15 @@ use MetaTrans::Base;
 # Version.
 our $VERSION = 1.06;
 
-$package = shift @ARGV;
+# Arguments.
+if (@ARGV < 1) {
+	print STDERR "Usage: $0 PLUGIN_CLASS [ OPTIONS ] EXPRESSION [ EXPRESSION ... ]\n";
+	exit 1;
+}
+$plugin_class = $ARGV[0];
 
-eval "require $package";
-my $trans = new $package;
+eval "require $plugin_class";
+my $trans = new $plugin_class;
 
 $trans->run;
 
