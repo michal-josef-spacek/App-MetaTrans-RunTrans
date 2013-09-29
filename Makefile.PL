@@ -16,7 +16,6 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-MetaTrans-RunTrans';
 resources 'homepage' => 'https://github.com/tupinek/App-MetaTrans-RunTrans';
 resources 'repository' => 'git://github.com/tupinek/App-MetaTrans-RunTrans';
-tests_recursive;
 version '1.06';
 
 # Run.

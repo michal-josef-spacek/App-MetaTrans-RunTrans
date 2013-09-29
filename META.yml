@@ -17,7 +17,6 @@ name: App-MetaTrans-RunTrans
 no_index:
   directory:
     - inc
-    - t
 requires:
   MetaTrans: 1.06
 resources:
