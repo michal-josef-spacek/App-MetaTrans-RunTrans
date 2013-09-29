@@ -18,6 +18,9 @@ for a complete list.
 
 use MetaTrans::Base;
 
+# Version.
+our $VERSION = 1.06;
+
 $package = shift @ARGV;
 
 eval "require $package";
@@ -48,3 +51,7 @@ under the same terms as Perl itself.
 =head1 SEE ALSO
 
 L<MetaTrans>, L<MetaTrans::Base>
+
+=head1 VERSION
+
+1.06
