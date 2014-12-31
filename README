@@ -83,6 +83,9 @@ COPYRIGHT & LICENSE
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
 
+DEPENDENCIES
+    MetaTrans::Base.
+
 SEE ALSO
     MetaTrans, MetaTrans::Base, MetaTrans::SeznamCz, MetaTrans::SlovnikCz,
     MetaTrans::SlovnikZcuCz, MetaTrans::SmsCz, MetaTrans::UltralinguaNet,
