@@ -7,4 +7,4 @@
  - Add utf8 encoding to doc.
  - Improve SEE ALSO section.
  - Move from MetaTrans package.
- - Update Module::Install to 1.08 version.
+ - Update Module::Install to 1.14 version.
