@@ -12,6 +12,7 @@ author 'Michal Spacek <skim@cpan.org>';
 install_script 'bin/runtrans';
 license 'perl-5';
 name 'App-MetaTrans-RunTrans';
+readme_from 'bin/runtrans';
 requires 'MetaTrans' => 1.06;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-MetaTrans-RunTrans';
