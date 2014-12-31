@@ -3,8 +3,9 @@ TODO
 1. Do runtrans pridat osetreni neexistence modulu.
 2. Prepsat na knihovnu, ktera se v binarce jenom bude volat.
 3. Pridat help do bin/runtrans, pokud to je u vsech modulu stejne.
-4. Zjistit minimalni verzi Perlu.
 5.
 
 Applied
 =======
+4. Zjistit minimalni verzi Perlu.
+OK [20141231] skim

@@ -14,6 +14,7 @@ license 'perl-5';
 name 'App-MetaTrans-RunTrans';
 readme_from 'bin/runtrans';
 requires 'MetaTrans' => 1.06;
+requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-MetaTrans-RunTrans';
 resources 'homepage' => 'https://github.com/tupinek/App-MetaTrans-RunTrans';
