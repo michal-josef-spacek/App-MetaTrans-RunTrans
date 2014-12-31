@@ -124,12 +124,8 @@ L<MetaTrans::Base>.
 
 L<MetaTrans>,
 L<MetaTrans::Base>,
-L<MetaTrans::SeznamCz>,
-L<MetaTrans::SlovnikCz>,
-L<MetaTrans::SlovnikZcuCz>,
-L<MetaTrans::SmsCz>,
-L<MetaTrans::UltralinguaNet>,
-L<MetaTrans::WordbookCz>.
+L<MetaTrans::Languages>,
+L<Task::MetaTrans>.
 
 =head1 VERSION
 

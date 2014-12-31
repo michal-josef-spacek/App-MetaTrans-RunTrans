@@ -87,9 +87,7 @@ DEPENDENCIES
     MetaTrans::Base.
 
 SEE ALSO
-    MetaTrans, MetaTrans::Base, MetaTrans::SeznamCz, MetaTrans::SlovnikCz,
-    MetaTrans::SlovnikZcuCz, MetaTrans::SmsCz, MetaTrans::UltralinguaNet,
-    MetaTrans::WordbookCz.
+    MetaTrans, MetaTrans::Base, MetaTrans::Languages, Task::MetaTrans.
 
 VERSION
     1.06
