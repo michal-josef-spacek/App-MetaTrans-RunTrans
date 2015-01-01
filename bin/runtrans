@@ -19,6 +19,9 @@ for a complete list.
 =cut
 
 use MetaTrans::Base;
+# Pragmas.
+use strict;
+use warnings;
 
 # Version.
 our $VERSION = 1.06;
