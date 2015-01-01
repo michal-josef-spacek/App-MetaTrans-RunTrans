@@ -43,7 +43,7 @@ __END__
 =head1 EXAMPLE1
 
  # Run.
- # ./bin/runtrans MetaTrans::SlovnikCz -m exact pes
+ # runtrans MetaTrans::SlovnikCz -m exact pes
 
  # Output like:
  # pes = pooch
@@ -54,7 +54,7 @@ __END__
 =head1 EXAMPLE2
 
  # Run.
- # ./bin/runtrans MetaTrans::SlovnikCz -h
+ # runtrans MetaTrans::SlovnikCz -h
 
  # Output:
  # Multilingual dictionary metasearcher for www.slovnik.cz
