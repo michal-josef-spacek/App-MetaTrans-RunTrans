@@ -12,3 +12,4 @@
  - Remove obsolete dependencies.
  - Update AUTHOR section in doc.
  - Update Module::Install to 1.14 version.
+ - Update copyright years.
