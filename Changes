@@ -10,4 +10,5 @@
  - Improve SEE ALSO section.
  - Move from MetaTrans package.
  - Remove obsolete dependencies.
+ - Update AUTHOR section in doc.
  - Update Module::Install to 1.14 version.
