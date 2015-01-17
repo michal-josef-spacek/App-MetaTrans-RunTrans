@@ -30,7 +30,7 @@ if (@ARGV < 1) {
 	print STDERR "Usage: $0 PLUGIN_CLASS [ OPTIONS ] EXPRESSION [ EXPRESSION ... ]\n";
 	exit 1;
 }
-$plugin_class = $ARGV[0];
+my $plugin_class = $ARGV[0];
 
 eval "require $plugin_class";
 my $trans = new $plugin_class;
