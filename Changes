@@ -1,5 +1,4 @@
 1.06
- - Add DEPENDENCIES section to doc.
  - Add EXAMPLE sections to man page.
  - Add README.
  - Add REPOSITORY section to man page.
@@ -10,4 +9,5 @@
  - Add utf8 encoding to doc.
  - Improve SEE ALSO section.
  - Move from MetaTrans package.
+ - Remove obsolete dependencies.
  - Update Module::Install to 1.14 version.
