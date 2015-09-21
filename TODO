@@ -3,7 +3,8 @@ TODO
 1. Do runtrans pridat osetreni neexistence modulu.
 2. Prepsat na knihovnu, ktera se v binarce jenom bude volat.
 3. Pridat help do bin/runtrans, pokud to je u vsech modulu stejne.
-5.
+5. LICENSE file.
+6.
 
 Applied
 =======
