@@ -7,6 +7,7 @@
  - Add minimal version of Perl.
  - Add pragmas to script.
  - Add utf8 encoding to doc.
+ - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Improve SEE ALSO section.
  - Move from MetaTrans package.
  - Remove obsolete dependencies.
