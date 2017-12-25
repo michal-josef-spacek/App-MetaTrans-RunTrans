@@ -2,7 +2,7 @@
 abstract: 'Command line application for running MetaTrans plug-ins.'
 author:
   - 'Jan Pomikalek <xpomikal@fi.muni.cz>'
-  - 'Michal Spacek <skim@cpan.org>'
+  - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:

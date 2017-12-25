@@ -13,4 +13,5 @@
  - Remove obsolete dependencies.
  - Update AUTHOR section in doc.
  - Update Module::Install to 1.18 version.
+ - Update author name.
  - Update copyright years.
