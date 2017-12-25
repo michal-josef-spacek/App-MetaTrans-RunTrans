@@ -18,11 +18,12 @@ for a complete list.
 
 =cut
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Version.
+use English;
+use Error::Pure qw(err);
+
 our $VERSION = 1.06;
 
 # Arguments.
@@ -33,6 +34,9 @@ if (@ARGV < 1) {
 my $plugin_class = $ARGV[0];
 
 eval "require $plugin_class";
+if ($EVAL_ERROR) {
+	err "Error with loading '$plugin_class'.", 'ERROR', $EVAL_ERROR;
+}
 my $trans = new $plugin_class;
 
 $trans->run;
