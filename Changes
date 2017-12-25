@@ -4,6 +4,7 @@
  - Add REPOSITORY section to man page.
  - Add VERSION to runtrans script.
  - Add check for arguments.
+ - Add dependencies to doc.
  - Add minimal version of Perl.
  - Add pragmas to script.
  - Add utf8 encoding to doc.

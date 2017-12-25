@@ -122,6 +122,11 @@ Michal Josef Špaček, L<mailto:tupinek@gmail.com>
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
+=head1 DEPENDENCIES
+
+L<English>,
+L<Error::Pure>.
+
 =head1 SEE ALSO
 
 L<MetaTrans>,

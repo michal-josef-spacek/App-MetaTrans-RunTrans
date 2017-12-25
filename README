@@ -83,6 +83,9 @@ COPYRIGHT & LICENSE
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
 
+DEPENDENCIES
+    English, Error::Pure.
+
 SEE ALSO
     MetaTrans, MetaTrans::Base, MetaTrans::Languages, Task::MetaTrans.
 
