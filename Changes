@@ -1,5 +1,6 @@
 1.06
  - Add EXAMPLE sections to man page.
+ - Add LICENSE file.
  - Add README.
  - Add REPOSITORY section to man page.
  - Add VERSION to runtrans script.
