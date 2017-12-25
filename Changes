@@ -11,5 +11,5 @@
  - Move from MetaTrans package.
  - Remove obsolete dependencies.
  - Update AUTHOR section in doc.
- - Update Module::Install to 1.14 version.
+ - Update Module::Install to 1.18 version.
  - Update copyright years.
